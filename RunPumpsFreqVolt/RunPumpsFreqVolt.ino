@@ -1,24 +1,26 @@
 #include <Wire.h>
 #include <math.h>
 
-//hello
 
 //Select frequency... between 50 and 800 Hz
-int freq=100; //Hz
+int freq=120; //Hz
 //How many minutes for the meaurement?
 float min=2; //min
 
 //PUMP 1: select voltage... between 16 and 250V
-int p1=50; //V
+int p1=250; //V
 //PUMP 2: select voltage
-int p2=100; //V
+int p2=250; //V
 //PUMP 3: select voltage
-int p3=150; //V -----------------------------------------------------------------------------------------
+int p3=250; //V 
 //PUMP 4: select voltage
-int p4=250; //V
+int p4=10; //V-----------------------------------------------------------------------------------------
+
+int num=0;
 
 //convert the frequency into a number
-int num= log (freq/50)/0.0109; 
+num= ConvertFrequency(freq);
+
 //convert minutes into seconds
 float sec=60*min*1000;
 
@@ -73,7 +75,7 @@ void loop() {
   if (digitalRead(TASTER) == LOW) {
 
     Serial.print("Frequency = ");
-    Serial.print(freq);
+    Serial.print(num,HEX);
     Serial.println(" Hz.");
 
     Serial.print("Voltage P1= ");
@@ -113,4 +115,21 @@ void loop() {
   }
 
   delay(100);
+}
+
+
+
+//function to convert the frequency into a number
+int ConvertFrequency(int f){
+  int n;
+  if (f<100){
+    n=1.26*f-63;
+  } else if(f>=100 && f<200){
+    n=0.63*f+1;
+  }else if(f>=200 && f<400){
+    n=0.315*f+65;
+  }else{
+    n=0.1575*f+129;
+  }
+  return(n);
 }
