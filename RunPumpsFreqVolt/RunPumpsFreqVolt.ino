@@ -1,6 +1,7 @@
 #include <Wire.h>
 #include <math.h>
 
+//hello
 
 //Select frequency... between 50 and 800 Hz
 int freq=100; //Hz
