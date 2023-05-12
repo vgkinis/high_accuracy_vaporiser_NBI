@@ -17,6 +17,7 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 | 160         | 0,0                             | 1057,0                 | 1057,0                  |
 
 | f= 67 Hz    |                                 |                        |                         |
+|-------------|---------------------------------|------------------------|-------------------------|
 | Voltage (V) | Flow before mesurement (µL/min) | Flow measured (µL/min) | Flow corrected (µL/min) |
 | 16          | -1                              | 39                     | 40                      |
 | 40          | 0                               | 179                    | 179                     |
@@ -25,6 +26,7 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 | 160         | -1                              | 1136                   | 1137                    |
 
 | f= 84 Hz    |                                 |                        |                         |
+|-------------|---------------------------------|------------------------|-------------------------|
 | Voltage (V) | Flow before mesurement (µL/min) | Flow measured (µL/min) | Flow corrected (µL/min) |
 | 16          | 0                               | 72                     | 72                      |
 | 40          | 1                               | 254                    | 253                     |
@@ -33,6 +35,7 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 | 160         | 1                               | 1291                   | 1290                    |
 
 | f= 100 Hz   |                                 |                        |                         |
+|-------------|---------------------------------|------------------------|-------------------------|
 | Voltage (V) | Flow before mesurement (µL/min) | Flow measured (µL/min) | Flow corrected (µL/min) |
 | 16          | -1                              | 63                     | 64                      |
 | 40          | 0                               | 275                    | 275                     |
@@ -54,6 +57,7 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 | 160         | 1,0                             | 122,0                  | 121,0                   |
 
 | f= 67 Hz    |                                 |                        |                         |
+|-------------|---------------------------------|------------------------|-------------------------|
 | Voltage (V) | Flow before mesurement (µL/min) | Flow measured (µL/min) | Flow corrected (µL/min) |
 | 16          | 1                               | 1                      | 0                       |
 | 40          | 2                               | 16                     | 14                      |
@@ -62,6 +66,7 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 | 160         | 1                               | 129                    | 128                     |
 
 | f= 84 Hz    |                                 |                        |                         |
+|-------------|---------------------------------|------------------------|-------------------------|
 | Voltage (V) | Flow before mesurement (µL/min) | Flow measured (µL/min) | Flow corrected (µL/min) |
 | 16          | 1                               | 1                      | 0                       |
 | 40          | 2                               | 15                     | 13                      |
@@ -70,6 +75,7 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 | 160         | 1                               | 135                    | 134                     |
 
 | f= 100 Hz   |                                 |                        |                         |
+|-------------|---------------------------------|------------------------|-------------------------|
 | Voltage (V) | Flow before mesurement (µL/min) | Flow measured (µL/min) | Flow corrected (µL/min) |
 | 16          | 1                               | 1                      | 0                       |
 | 40          | 1                               | 18                     | 17                      |
