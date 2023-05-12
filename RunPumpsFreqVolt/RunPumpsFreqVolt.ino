@@ -3,9 +3,9 @@
 
 
 //Select frequency... between 50 and 800 Hz
-int freq=120; //Hz
+int freq=50; //Hz
 //How many minutes for the meaurement?
-float min=2; //min
+float min=1; //min
 
 //PUMP 1: select voltage... between 16 and 250V
 int p1=250; //V
@@ -14,21 +14,11 @@ int p2=250; //V
 //PUMP 3: select voltage
 int p3=250; //V 
 //PUMP 4: select voltage
-int p4=10; //V-----------------------------------------------------------------------------------------
+int p4=16; //V-----------------------------------------------------------------------------------------
 
-int num=0;
-
-//convert the frequency into a number
-num= ConvertFrequency(freq);
 
 //convert minutes into seconds
 float sec=60*min*1000;
-
-//convert the voltage into a number
-int numP1=0.125*p1; //PUMP 1
-int numP2=0.125*p2; //PUMP 2
-int numP3=0.125*p3; //PUMP 3
-int numP4=0.125*p4; //PUMP 4
 
 #define Addr 0x7B
 #define TASTER 3
@@ -49,6 +39,15 @@ int numP4=0.125*p4; //PUMP 4
 
 //the setup routine runs once when you press reset :
 void setup() {
+  //convert the frequency into a number
+  int num= ConvertFrequency(freq);
+  
+  //convert the voltage into a number
+  int numP1=0.125*p1; //PUMP 1
+  int numP2=0.125*p2; //PUMP 2
+  int numP3=0.125*p3; //PUMP 3
+  int numP4=0.125*p4; //PUMP 4
+
   Wire.begin();
   Serial.begin(9600);
   Serial.println();
@@ -75,7 +74,7 @@ void loop() {
   if (digitalRead(TASTER) == LOW) {
 
     Serial.print("Frequency = ");
-    Serial.print(num,HEX);
+    Serial.print(freq);
     Serial.println(" Hz.");
 
     Serial.print("Voltage P1= ");
