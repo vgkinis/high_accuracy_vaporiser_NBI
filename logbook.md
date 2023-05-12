@@ -43,6 +43,8 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 | 120         | 0                               | 1045                   | 1045                    |
 | 160         | 0                               | 1378                   | 1378                    |
 
+![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/9f1d385e-8405-41a2-9753-2356415af098)
+
 ## Tests with 0.25mm inner diameter 
 
 Measures with one pump at different voltage (peak to peak) and different frequency: 
