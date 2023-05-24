@@ -31,34 +31,35 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 |---------------|------------------------|------------------------|------------------------|
 | inner tube :  | 0.5 mm                 | 0.25 mm                | 0.25 mm                |
 | tube length : | 25 cm                  | 25 cm                  | 50 cm                  |
-|               |                        |                        |                        |
+| 50 Hz         |                        |                        |                        |
 | Voltage (V)   | Flow measured (µL/min) | Flow measured (µL/min) | Flow measured (µL/min) |
 | 16            | 51,0                   | 1,0                    | 0,0                    |
 | 40            | 196,0                  | 12,0                   | 7,0                    |
 | 80            | 505,0                  | 55,0                   | 27,0                   |
 | 120           | 795,0                  | 88,0                   | 46,0                   |
 | 160           | 1057,0                 | 122,0                  | 63,0                   |
-|               |                        |                        |                        |
+| 67 Hz         |                        |                        |                        |
 | Voltage (V)   | Flow measured (µL/min) | Flow measured (µL/min) | Flow measured (µL/min) |
 | 16            | 39                     | 1                      | 0                      |
 | 40            | 179                    | 16                     | 8                      |
 | 80            | 513                    | 60                     | 28                     |
 | 120           | 855                    | 92                     | 48                     |
 | 160           | 1136                   | 129                    | 66                     |
-|               |                        |                        |                        |
+| 84 Hz         |                        |                        |                        |
 | Voltage (V)   | Flow measured (µL/min) | Flow measured (µL/min) | Flow measured (µL/min) |
 | 16            | 72                     | 1                      | 1                      |
 | 40            | 254                    | 15                     | 9                      |
 | 80            | 615                    | 63                     | 30                     |
 | 120           | 989                    | 98                     | 50                     |
 | 160           | 1291                   | 135                    | 68                     |
-|               |                        |                        |                        |
+| 100 Hz        |                        |                        |                        |
 | Voltage (V)   | Flow measured (µL/min) | Flow measured (µL/min) | Flow measured (µL/min) |
 | 16            | 63                     | 1                      | 0                      |
 | 40            | 275                    | 18                     | 9                      |
 | 80            | 657                    | 65                     | 30                     |
 | 120           | 1045                   | 104                    | 52                     |
 | 160           | 1378                   | 137                    | 69                     |
+
 
 ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/cf9c2481-09f4-428d-8533-d0548bff0eb8)
 
