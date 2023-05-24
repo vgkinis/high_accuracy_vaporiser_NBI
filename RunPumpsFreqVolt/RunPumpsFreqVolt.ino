@@ -8,13 +8,13 @@ int freq=50; //Hz
 float min=1; //min
 
 //PUMP 1: select voltage... between 16 and 250V
-int p1=250; //V
+int p1=160; //V-----------------------------------------------------------------------------------------
 //PUMP 2: select voltage
 int p2=250; //V
 //PUMP 3: select voltage
 int p3=250; //V 
 //PUMP 4: select voltage
-int p4=16; //V-----------------------------------------------------------------------------------------
+int p4=16; //V
 
 
 //convert minutes into seconds
