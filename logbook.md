@@ -86,3 +86,7 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 | 160         | 1                               | 137                    | 136                     |
 
 ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/0c760832-68f9-4b99-9ce7-b7d951792574)
+
+## Update 24/05
+
+I am now able to read the value from the new flow sensor with the arduino code in the folder "readSensorValue"
