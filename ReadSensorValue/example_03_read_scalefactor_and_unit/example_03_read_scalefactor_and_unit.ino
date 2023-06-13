@@ -1,42 +1,5 @@
-/*
- * Copyright (c) 2018, Sensirion AG
- * All rights reserved.
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions are met:
- *
- * * Redistributions of source code must retain the above copyright notice, this
- *   list of conditions and the following disclaimer.
- *
- * * Redistributions in binary form must reproduce the above copyright notice,
- *   this list of conditions and the following disclaimer in the documentation
- *   and/or other materials provided with the distribution.
- *
- * * Neither the name of Sensirion AG nor the names of its
- *   contributors may be used to endorse or promote products derived from
- *   this software without specific prior written permission.
- *
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
- * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
- * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
- * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
- * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
- * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
- * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
- * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
- * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- */
-
-/*******************************************************************************
- * Purpose: Example code for the I2C communication with Sensirion Liquid
- *          Flow Sensors
- *
- *          Reads the scale factor and measurement unit information from the
- *          sensor's EEPROM
- ******************************************************************************/
-
 #include <Wire.h>
+#include <LiquidCrystal.h>
 
 const int ADDRESS = 0x40; // Standard address for Liquid Flow Sensors
 
@@ -52,6 +15,11 @@ const uint16_t FLOW_UNIT_CODES[] = {2115, 2116, 2117, 2100, 2133};
 
 uint16_t scale_factor;
 const char *unit;
+
+// initialize the library by associating any needed LCD interface pin
+// with the arduino pin number it is connected to
+const int rs = 2, en = 7, d4 = 6, d5 = 5, d6 = 4, d7 = 3;
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 // -----------------------------------------------------------------------------
 // Arduino setup routine, just runs once:
@@ -79,6 +47,10 @@ void setup() {
     ret = Wire.endTransmission();
     if (ret != 0) {
       Serial.println("Error while sending soft reset command, retrying...");
+      // set up the LCD's number of columns and rows:
+      lcd.begin(16, 2);
+     // Print a message to the LCD.
+      lcd.print("Error code");
       continue;
     }
     delay(50); // wait long enough for reset
@@ -196,5 +168,21 @@ void loop() {
     Serial.println(unit);
   }
 
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+  // Print a message to the LCD.
+  lcd.print("Sensor value :");
+
+  // set the cursor to column 0, line 1
+  // (note: line 1 is the second row, since counting begins with 0):
+  lcd.setCursor(0, 1);
+  // print the number of seconds since reset:
+  lcd.print(sensor_reading);
+
+  lcd.setCursor(6, 1);
+  // print the number of seconds since reset:
+  lcd.print(unit);
+
   delay(3000); // milliseconds delay between reads (for demo purposes)
+
 }
