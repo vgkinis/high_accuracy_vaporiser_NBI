@@ -66,7 +66,7 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 Zoom on 0.25mm inner tube : 
 ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/e4f06cbb-78b4-4412-b6b9-dff5fdc6b0cd)
 
-#30/06 update:
+## 30/06 update:
 
 today I ran tests with low flow sensor for the stability of the flow. 
 
