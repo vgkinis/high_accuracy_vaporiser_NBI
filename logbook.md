@@ -65,3 +65,18 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 
 Zoom on 0.25mm inner tube : 
 ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/e4f06cbb-78b4-4412-b6b9-dff5fdc6b0cd)
+
+#30/06 update:
+
+today I ran tests with low flow sensor for the stability of the flow. 
+
+the first stability test is with 0.5mm inner tube. We can see that it is not very stable around a value.
+This graph shows the flow in nL/min depending on the time: 
+![FirstTest](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/e618229d-20aa-4c75-86ca-4f534d6d2d44)
+
+I ran the same test but this time with a node after the sensor going from a 0.5mm inner tube to a 0.25mm one. The flow now is pretty stable, but the problem that I got was that it was difficult to go less than 5 microlitters per minutes... I should run more tests on monday.
+Here is the graph: 
+![SeondTest](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/a6aa5d3f-59ad-40e0-b95f-906e737570df)
+
+
+
