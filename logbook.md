@@ -72,11 +72,12 @@ today I ran tests with low flow sensor for the stability of the flow.
 
 the first stability test is with 0.5mm inner tube. We can see that it is not very stable around a value.
 This graph shows the flow in nL/min depending on the time: 
-![FirstTest](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/e618229d-20aa-4c75-86ca-4f534d6d2d44)
+![FirstTest](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/15ad39ea-9109-45c5-bbe8-129cab8496f2)
+
 
 I ran the same test but this time with a node after the sensor going from a 0.5mm inner tube to a 0.25mm one. The flow now is pretty stable, but the problem that I got was that it was difficult to go less than 5 microlitters per minutes... I should run more tests on monday.
 Here is the graph: 
-![SeondTest](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/a6aa5d3f-59ad-40e0-b95f-906e737570df)
+![secondTest](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/3749c840-1d70-4d56-a806-f26555719781)
 
 
 
