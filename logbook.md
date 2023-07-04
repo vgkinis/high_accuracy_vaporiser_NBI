@@ -80,7 +80,7 @@ Here is the graph:
 ![secondTest](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/3749c840-1d70-4d56-a806-f26555719781)
 
 
-Again with the node, I ran two tests on the 4th of July. I ran the three next tests with the same parameters (50Vpp and 50Hz) to know more about the stability of the system: 
+Again with the node, I ran two tests on the 4th of July. I ran the three next tests with the same parameters (50Vpp and 50Hz) to know more about the stability of the system at 3uL/min: 
 ![ThirdTest](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/a13b0f61-4e7a-46f1-84f9-8d719518f570)
 ![FourthTest](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/96cce11f-e996-40a8-80ae-e2acc1722c53)
 ![FifthTest](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/2a5aa705-3bfc-4bec-803e-d86b7270b872)
