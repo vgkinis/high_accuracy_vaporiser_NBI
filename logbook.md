@@ -84,6 +84,9 @@ Again with the node, I ran two tests on the 4th of July. I ran the three next te
 ![FifthTest](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/2a5aa705-3bfc-4bec-803e-d86b7270b872)
 
 
+![20210815-21-50-51-FUJIFILM-X100T-4896 x 3264_cap1_JPEG - Full size, highest quality](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/407309/3147fcf0-c80c-430a-93b2-94acff1eac12)
+
+
 ## 20230706 Note Vas
 - The results of the tests show that the flow varies roughly linearly with the length of the tubing downstream of the pump (Good!)
 - Theu also indicate about a factor of 10 when going from a 0.5 mm to 0.25 mm ID. This is roughly in agreement with a power of 4.
