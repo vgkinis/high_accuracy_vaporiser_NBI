@@ -90,3 +90,4 @@ Again with the node, I ran two tests on the 4th of July. I ran the three next te
 ## 20230706 Note Vas
 - The results of the tests show that the flow varies roughly linearly with the length of the tubing downstream of the pump (Good!)
 - Theu also indicate about a factor of 10 when going from a 0.5 mm to 0.25 mm ID. This is roughly in agreement with a power of 4.
+![AllFourDrivers](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/60a3be22-8c12-419b-ad14-c3d8e51ad6ea)
