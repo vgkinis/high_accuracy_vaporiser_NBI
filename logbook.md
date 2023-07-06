@@ -1,7 +1,5 @@
 # Title : Log book high Accuracy vaporiser
 
-- list 1
-- list 2
 
 ## Tests with 0.5mm inner diameter 25 cm length
 
@@ -15,7 +13,7 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 
 ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/0c760832-68f9-4b99-9ce7-b7d951792574)
 
-## Update 24/05
+## Update 20230524
 
 I am now able to read the value from the new flow sensor with the arduino code in the folder "readSensorValue"
 
@@ -29,8 +27,8 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 
 | Conclusion    |                        |                        |                        |
 |---------------|------------------------|------------------------|------------------------|
-| inner tube :  | 0.5 mm                 | 0.25 mm                | 0.25 mm                |
-| tube length : | 25 cm                  | 25 cm                  | 50 cm                  |
+| tube ID :     | 0.5 mm                 | 0.25 mm                | 0.25 mm                |
+| tube length:  | 25 cm                  | 25 cm                  | 50 cm                  |
 | 50 Hz         |                        |                        |                        |
 | Voltage (V)   | Flow measured (µL/min) | Flow measured (µL/min) | Flow measured (µL/min) |
 | 16            | 51,0                   | 1,0                    | 0,0                    |
@@ -63,10 +61,10 @@ Measures with one pump at different voltage (peak to peak) and different frequen
 
 ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/cf9c2481-09f4-428d-8533-d0548bff0eb8)
 
-Zoom on 0.25mm inner tube : 
+Zoom on 0.25mm ID tube : 
 ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/e4f06cbb-78b4-4412-b6b9-dff5fdc6b0cd)
 
-## 30/06 update:
+## 20230630 update:
 
 today I ran tests with low flow sensor for the stability of the flow. 
 
@@ -86,3 +84,6 @@ Again with the node, I ran two tests on the 4th of July. I ran the three next te
 ![FifthTest](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/2a5aa705-3bfc-4bec-803e-d86b7270b872)
 
 
+## 20230706 Note Vas
+- The results of the tests show that the flow varies roughly linearly with the length of the tubing downstream of the pump (Good!)
+- Theu also indicate about a factor of 10 when going from a 0.5 mm to 0.25 mm ID. This is roughly in agreement with a power of 4.
