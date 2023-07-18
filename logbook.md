@@ -106,6 +106,7 @@ length of the first tube = 12,2 cm
 length of the second tube = 9,2 cm
 Max frequency and max voltage on lowdriver
 
+flow is in nL/min
 ![TestCapilary](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/47bf0763-f764-42fd-a7c2-ff736834e00a)
 
 Decreasing the length decrease the flow too
