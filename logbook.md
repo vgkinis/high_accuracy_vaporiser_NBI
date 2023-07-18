@@ -90,3 +90,22 @@ Again with the node, I ran two tests on the 4th of July. I ran the three next te
 ## 20230706 Note Vas
 - The results of the tests show that the flow varies roughly linearly with the length of the tubing downstream of the pump (Good!)
 - Theu also indicate about a factor of 10 when going from a 0.5 mm to 0.25 mm ID. This is roughly in agreement with a power of 4.
+
+## Tests with Capillary
+on the 18/07 I made the first test with capillary 
+
+Two tests were made, one with longer capillary and one with smaller one 
+
+First test on 15 minutes: 
+length of the first tube = 14,5 cm
+length of the second tube= 11,7 cm
+Max frequency and max voltage on lowdriver
+
+Second test on 15 minutes 
+length of the first tube = 12,2 cm
+length of the second tube = 9,2 cm
+Max frequency and max voltage on lowdriver
+
+![TestCapilary](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/47bf0763-f764-42fd-a7c2-ff736834e00a)
+
+Decreasing the length decrease the flow too
