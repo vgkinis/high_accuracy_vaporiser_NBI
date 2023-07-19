@@ -110,3 +110,28 @@ flow is in nL/min
 ![TestCapilary](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/47bf0763-f764-42fd-a7c2-ff736834e00a)
 
 Decreasing the length decrease the flow too
+
+## Tests results on test about frequency and amplitude for a flow of 1000 nL/min
+
+| Frequency (Hz)       | 725     | 110     | 110     | 690     | 608     | 103     | 102     | 525     | 405     | 128     | 235     | 361     | 334     | 265    |
+|----------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|--------|
+| Voltage (Vpp)        | 150     | 150     | 130     | 130     | 110     | 110     | 90      | 90      | 70      | 70      | 60      | 60      | 55      | 55     |
+| Average flow(nL/min) | 1029,69 | 1052,41 | 1061,55 | 1011,06 | 1050,62 | 1063,04 | 1055,21 | 1021,66 | 1026,71 | 1018,47 | 1062,37 | 1024,28 | 1019,53 | 997,16 |
+| Standart deviation   | 25,17   | 26,18   | 28,41   | 18,19   | 24,60   | 8,97    | 9,56    | 14,82   | 12,84   | 19,89   | 15,09   | 20,63   | 9,38    | 22,95  |
+
+to reach 1000 nL/min we can: 
+| Voltage | Low Frequency | High |
+|---------|---------------|------|
+| 150     | 110           | 725  |
+| 130     | 110           | 690  |
+| 110     | 103           | 608  |
+| 90      | 102           | 525  |
+| 70      | 128           | 405  |
+| 60      | 235           | 361  |
+| 55      | 265           | 334  |
+
+![ChartFrequencyAmplitude1nLmin](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/assets/72393572/18ddcae7-64af-4600-84ef-3358444a91e2)
+
+I noticed that we can obtain 1000 nL/min with two different frequency for a same voltage... a high frequency and a low one. I also noticed that we can obtain 1000 nL/min with an amplitude of 55V for every frequency between 265 Hz and 334 Hz. 
+
+
