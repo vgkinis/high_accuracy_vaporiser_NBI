@@ -35,48 +35,48 @@ OK
 Eventually correct after several reads
 
 Continous 1 (read both channels: CH6 CH5, CH5 V from 200 to 100)
-0 200
-0 200
-OK 0
-100 0
-100 0
-100 0
-100 0
-100 0
+(0 200)
+(0 200)
+(OK 0)
+(100 0)
+(100 0)
+(100 0)
+(100 0)
+(100 0)
 ...
 V is eventually correct after several reads but wrong channel
 
 Continous 2 (read both channels: CH6 CH5, CH5 V from 100 to 200)
-100 0
-100 0
-100 OK
-0 200
-0 200
-0 200
-0 200
+(100 0)
+(100 0)
+(100 OK)
+(0 200)
+(0 200)
+(0 200)
+(0 200)
 ...
 Eventually correct after several reads
 
 Continous 3 (read both channels: CH6 CH5, CH5 V from 200 to 100)
-0 200
-0 200
-0 200
-OK 0
-100 0
-100 0
-100 0
-100 0
+(0 200)
+(0 200)
+(0 200)
+(OK 0)
+(100 0)
+(100 0)
+(100 0)
+(100 0)
 ...
 V is eventually correct after several reads but wrong channel
 
 Continous 2 (read both channels: CH6 CH5, CH5 V from 100 to 200)
-100 0
-100 0
-100 0
-100 OK
-0 200
-0 200
-0 200
+(100 0)
+(100 0)
+(100 0)
+(100 OK)
+(0 200)
+(0 200)
+(0 200)
 ...
 Eventually correct after several reads
 
