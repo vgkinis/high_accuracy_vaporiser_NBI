@@ -43,7 +43,7 @@ For this VI to work the ESP32 must have the original firmware on it. The command
 | *(enter key)* | Displays current settings of the Multiboard                                                  |
 
 A typlical write and read command can be seen for the send command button in the bottom of the front panel:
-![image](images/IMG_send_command_110624.png)
+![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_software/Images/IMG_send_command_110624.png)
 
 The voltage readout eg. `P5V?` is inconsistent and can be illustrated with this little test of the output:
 
