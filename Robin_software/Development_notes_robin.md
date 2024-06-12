@@ -119,3 +119,6 @@ Log 12/06/24
 The voltage reading issue has been resolved, this was a buffer issue which has been resolved by flushing the buffer during continuous readings. This solution gives fast and correct readouts for each channel, the only downside is that continuous readings must be stopped to read other values. For now this is not an issue as there are limited commands that are not relevant right now.
 
 The implementation of this can be seen here:
+![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_software/Images/IMG_flush_buffer_120624.png)
+
+The VI is thus now operational with the basic commands available.
