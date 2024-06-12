@@ -45,6 +45,8 @@ For this VI to work the ESP32 must have the original firmware on it. The command
 A typlical write and read command can be seen for the send command button in the bottom of the front panel:
 ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_software/Images/IMG_send_command_110624.png)
 
+Log: 11/06/24
+
 The voltage readout eg. `P5V?` is inconsistent and can be illustrated with this little test of the output:
 
 Manual 1 (read CH5, CH5 V from 200 to 100):
@@ -111,3 +113,9 @@ Continous 2 (read both channels: CH6 CH5, CH5 V from 100 to 200)
 Eventually correct after several reads
 
 The measurements are done using a two second wait bewteen reading and writing this is consistent with results seen with 0.5 second wait time. The continous measurements have an additional 2 second wait between them.
+
+Log 12/06/24
+
+The voltage reading issue has been resolved, this was a buffer issue which has been resolved by flushing the buffer during continuous readings. This solution gives fast and correct readouts for each channel, the only downside is that continuous readings must be stopped to read other values. For now this is not an issue as there are limited commands that are not relevant right now.
+
+The implementation of this can be seen here:
