@@ -122,3 +122,13 @@ The implementation of this can be seen here:
 ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_software/Images/IMG_flush_buffer_120624.png)
 
 The VI is thus now operational with the basic commands available.
+
+## Arduino sketch (Visual Studio code with Platformio extension): MP6_Robin
+
+A simple arduino sketch has been made based on a modified template available on [Bartels Mikrotechnik's website](https://bartels-mikrotechnik.de/wp-content/uploads/simple-file-list/EN/Software/Pumpdriver_Arduino_Example_Code.zip) for the current lowdriver configuration.
+
+To run the code in viasual studio the platformio extension is required. From the platformio home menu choose to open the project, make sure that both the platformio.ini and main.cpp files are open.
+
+Alternatively, the main.cpp file can be copied as a .ino file and run in the Arduino IDE. This requires the installation of Espressif's board manager. Go to files>preferences and then add [https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json](https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json) to the “Additional Board Manager URLs” field. When selecting a core choose "ESP32 Dev Module". However, this guide if focused on Visual Studio Code.
+
+The program itself is simple. It will set a voltage and frequency for the pump and turn it on for set experimental time. It will then turn off for the same amount of time. Open serial monitor in order to recieve status.
