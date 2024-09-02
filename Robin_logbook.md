@@ -17,7 +17,7 @@ Welcome to the logbook. This document keeps track of significant events, updates
   - Pumping from sample tray using autosampler with syringe and needle.
   - Flow abrubtly stopped.
 - **DATA**: 
-  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/tree/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_210824.png)
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_210824.png)
 
 ### 2024-08-28: Longer Measurement
 - **Description**: Tested pumping through syringe and needle.
@@ -26,7 +26,7 @@ Welcome to the logbook. This document keeps track of significant events, updates
   - Flowrate firsts declines slowly over 30min then spikes shortly and then is no more.
   - No visible loss of water from the vial in the tray. Likely only line volume is being pumped
 - **DATA**: 
-  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/tree/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_280824.png)
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_280824.png)
 
 ### 2024-09-02: Test of Syringe witout Needle
 - **Description**: Syringe replaced with testing-syringe without a needle. The needleless syringe was placed in water container.
@@ -36,15 +36,12 @@ Welcome to the logbook. This document keeps track of significant events, updates
   - Seemingly no issue with the tubing to syringe converter made by the workshop.
  - **DATA**: 
   - First measurement: 100Hz, 150V, No cycles - Initial spike, approx 8min decline, 35 min relatively stable 400-600 nl/min, noisy regime
-  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/tree/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO_020924.png)
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO_020924.png)
   - Second measurement: 100Hz, 150V, 5s cycles - Approx 15 min increasing rate, sharp and short decline, 40 min stable regime
-  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/tree/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_020924.png)
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_020924.png)
   - Third measurement: 100Hz, 150V, No cycles - relatively stable the whole time
-  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/tree/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO_020924_n2.png)
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO_020924_n2.png)
   - Fourth measurement: 100Hz, 150V, 5s cycles -
-  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/tree/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_020924.png)
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_020924_n2.png)
   
   
-
-  
-
