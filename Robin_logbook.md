@@ -15,7 +15,7 @@ Welcome to the logbook. This document keeps track of significant events, updates
 - **Highlights**: 
   - 1 measurement data was successfully saved.
   - Pumping from sample tray using autosampler with syringe and needle.
-  - Flow abrubtly stopped.
+  - Flow abrubtly stopped while pump cycling still on.
 - **DATA**: 
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_210824.png)
 
@@ -31,7 +31,7 @@ Welcome to the logbook. This document keeps track of significant events, updates
 ### 2024-09-02: Test of Syringe witout Needle
 - **Description**: Syringe replaced with testing-syringe without a needle. The needleless syringe was placed in water container.
 - **Highlights**: 
-  - 4 x 1 hr runs measured (two with on/off cycling, two without.
+  - 4 x 1 hr runs measured (two with on/off cycling, two without).
   - First two measurements show instability of the flowrate, the following two were much more stable.
   - Seemingly no issue with the tubing to syringe converter made by the workshop.
  - **DATA**: 
@@ -41,7 +41,7 @@ Welcome to the logbook. This document keeps track of significant events, updates
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_020924.png)
   - Third measurement: 100Hz, 150V, No cycles - relatively stable the whole time
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO_020924_n2.png)
-  - Fourth measurement: 100Hz, 150V, 5s cycles -
+  - Fourth measurement: 100Hz, 150V, 5s cycles - stable the whole time
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_020924_n2.png)
   
   
