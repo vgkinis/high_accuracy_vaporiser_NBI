@@ -50,7 +50,7 @@ Welcome to the logbook. This document keeps track of significant events, updates
 - **Highlights**: 
   - 2 runs without needle ensuring that the system was still operational (this required priming the line with a manual syringe according to Bartels instructions).
   - 2 runs with the needle showed similar results to what has been seen when pumping with the syringe and needles previously. Flow to begin with and then a decline until no flow
-  - 
+  - Last run to ensure that problem was with needle and not down line- tentatively confirmed.
 - **DATA**: 
   - First measurement: 100Hz, 150V, No and 5s cycles - Initially pumping fine with no cycles, however the flow stopped after 10 minutes with a small pickup afterwards, at approx half hour mark 5s cycles were wngaged in the hopes that it would restart the flow - no clear results.
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO5s_030924.png)
@@ -60,3 +60,5 @@ Welcome to the logbook. This document keeps track of significant events, updates
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_030924_needle1.png)
   - Fourth measurement: 100Hz, 150V, No cycles - Pumping through needle in big container. Initial slight flow which reduced to almost nothing in 10 minutes. Attempts at priming were unsuccessful.
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO_030924_needle2_priming.png)
+  - Fifth measurement: 100Hz, 150V, 10 min of 5s and 50 min cycles - pumping without syringe in big container - cycling gave big swings 5000nl/min on and - 5000nl/min off - no cycling gave consistent approx 4000nl/min.
+  - DATA in SD card corrupted
