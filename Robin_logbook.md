@@ -49,7 +49,7 @@ Welcome to the logbook. This document keeps track of significant events, updates
 - **Description**: Continued with the testing-syringe from the day before first assuring flow without a needle, then added a needle. The test was performed in the same water container.
 - **Highlights**: 
   - 2 runs without needle ensuring that the system was still operational (this required priming the line with a manual syringe according to Bartels instructions).
-  - 
+  - 2 runs with the needle showed similar results to what has been seen when pumping with the syringe and needles previously. Flow to begin with and then a decline until no flow
   - 
 - **DATA**: 
   - First measurement: 100Hz, 150V, No and 5s cycles - Initially pumping fine with no cycles, however the flow stopped after 10 minutes with a small pickup afterwards, at approx half hour mark 5s cycles were wngaged in the hopes that it would restart the flow - no clear results.
@@ -58,5 +58,5 @@ Welcome to the logbook. This document keeps track of significant events, updates
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO5s_030924_priming.png)
   - Third measurement: 100Hz, 150V, 5s cycles - Pumping through needle in big container. Singnificant flow at 5 minutes followed by decline which then picks up between 20 to 30 minutes, but generally very sporadic flow spikes with average flow of 100 nl/min to 400 nl/min
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_030924_needle1.png)
-
-
+  - Fourth measurement: 100Hz, 150V, No cycles - Pumping through needle in big container. Initial slight flow which reduced to almost nothing in 10 minutes. Attempts at priming were unsuccessful.
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO_030924_needle2_priming.png)
