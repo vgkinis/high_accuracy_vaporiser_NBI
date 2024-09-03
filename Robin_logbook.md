@@ -6,7 +6,8 @@ Welcome to the logbook. This document keeps track of significant events, updates
 
 - [2024-08-21: Initial Test](#2024-08-21-initial-test)
 - [2024-08-28: Longer Measurement](#2024-08-28-longer-measurement)
-- [2024-09-02: Test of Syringe witout Needle](#2024-09-02-test-of-syringe-witout-needle)
+- [2024-09-02: Test of Syringe without Needle](#2024-09-02-test-of-syringe-without-needle)
+- [2024-09-03: Test of Syringe with Needle](#2024-09-02-test-of-syringe-with-needle)
 
 ## Log Entries
 
@@ -28,13 +29,13 @@ Welcome to the logbook. This document keeps track of significant events, updates
 - **DATA**: 
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_280824.png)
 
-### 2024-09-02: Test of Syringe witout Needle
+### 2024-09-02: Test of Syringe without Needle
 - **Description**: Syringe replaced with testing-syringe without a needle. The needleless syringe was placed in water container.
 - **Highlights**: 
   - 4 x 1 hr runs measured (two with on/off cycling, two without).
   - First two measurements show instability of the flowrate, the following two were much more stable.
   - Seemingly no issue with the tubing to syringe converter made by the workshop.
- - **DATA**: 
+- **DATA**: 
   - First measurement: 100Hz, 150V, No cycles - Initial spike, approx 8min decline, 35 min relatively stable 400-600 nl/min, noisy regime
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO_020924.png)
   - Second measurement: 100Hz, 150V, 5s cycles - Approx 15 min increasing rate, sharp and short decline, 40 min stable regime
@@ -44,4 +45,17 @@ Welcome to the logbook. This document keeps track of significant events, updates
   - Fourth measurement: 100Hz, 150V, 5s cycles - stable the whole time
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_020924_n2.png)
   
-  
+### 2024-09-03: Test of Syringe with Needle
+- **Description**: Continued with the testing-syringe from the day before first assuring flow without a needle, then added a needle. The test was performed in the same water container.
+- **Highlights**: 
+  - 2 runs without needle ensuring that the system was still operational (this required priming the line with a manual syringe according to Bartels instructions).
+  - 
+  - 
+- **DATA**: 
+  - First measurement: 100Hz, 150V, No and 5s cycles - Initially pumping fine with no cycles, however the flow stopped after 10 minutes with a small pickup afterwards, at approx half hour mark 5s cycles were wngaged in the hopes that it would restart the flow - no clear results.
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO5s_030924.png)
+  - Second measurement: 100Hz, 150V, No and 5s cycles - Attempt to restart the flow, several priming events were conducted with a manuel syringe, and a combination of cycles and no cycles were used. After a priming attempt in combination with 5s second cycles afterwards a stable regime was reached.
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO5s_020924_priming.png)
+
+
+
