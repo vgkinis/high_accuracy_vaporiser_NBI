@@ -55,7 +55,8 @@ Welcome to the logbook. This document keeps track of significant events, updates
   - First measurement: 100Hz, 150V, No and 5s cycles - Initially pumping fine with no cycles, however the flow stopped after 10 minutes with a small pickup afterwards, at approx half hour mark 5s cycles were wngaged in the hopes that it would restart the flow - no clear results.
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO5s_030924.png)
   - Second measurement: 100Hz, 150V, No and 5s cycles - Attempt to restart the flow, several priming events were conducted with a manuel syringe, and a combination of cycles and no cycles were used. After a priming attempt in combination with 5s second cycles afterwards a stable regime was reached.
-  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO5s_020924_priming.png)
-
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO5s_030924_priming.png)
+  - Third measurement: 100Hz, 150V, 5s cycles - Pumping through needle in big container. Singnificant flow at 5 minutes followed by decline which then picks up between 20 to 30 minutes, but generally very sporadic flow spikes with average flow of 100 nl/min to 400 nl/min
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycle5s_030924_needle1.png)
 
 
