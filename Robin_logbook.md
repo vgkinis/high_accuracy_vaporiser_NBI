@@ -31,6 +31,9 @@ Welcome to the logbook. This document keeps track of significant events, updates
 
 ### 2024-09-02: Test of Syringe without Needle
 - **Description**: Syringe replaced with testing-syringe without a needle. The needleless syringe was placed in water container.
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/IMAGES/IMG_syringe_noneedle_side.png)
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/IMAGES/IMG_syringe_noneedle_top.png)
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/IMAGES/IMG_line_end.png)
 - **Highlights**: 
   - 4 x 1 hr runs measured (two with on/off cycling, two without).
   - First two measurements show instability of the flowrate, the following two were much more stable.
@@ -47,6 +50,7 @@ Welcome to the logbook. This document keeps track of significant events, updates
   
 ### 2024-09-03: Test of Syringe with Needle
 - **Description**: Continued with the testing-syringe from the day before first assuring flow without a needle, then added a needle. The test was performed in the same water container.
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/IMAGES/IMG_syringe_needle.png)
 - **Highlights**: 
   - 2 runs without needle ensuring that the system was still operational (this required priming the line with a manual syringe according to Bartels instructions).
   - 2 runs with the needle showed similar results to what has been seen when pumping with the syringe and needles previously. Flow to begin with and then a decline until no flow
