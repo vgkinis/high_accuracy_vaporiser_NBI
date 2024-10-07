@@ -8,6 +8,8 @@ Welcome to the logbook. This document keeps track of significant events, updates
 - [2024-08-28: Longer Measurement](#2024-08-28-longer-measurement)
 - [2024-09-02: Test of Syringe without Needle](#2024-09-02-test-of-syringe-without-needle)
 - [2024-09-03: Test of Syringe with Needle](#2024-09-02-test-of-syringe-with-needle)
+- [2024-10-04: First Long Term Test of only Syringe](#2024-10-04-first-long-term-test-of-only-syringe)
+- [2024-10-07: Second Long Term Test of only Syringe](#2024-10-04-second-long-term-test-of-only-syringe)
 
 ## Log Entries
 
@@ -66,3 +68,20 @@ Welcome to the logbook. This document keeps track of significant events, updates
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Flow_tests/TEST_100Hz_150V_cycleNO_030924_needle2_priming.png)
   - Fifth measurement: 100Hz, 150V, 10 min of 5s and 50 min cycles - pumping without syringe in big container - cycling gave big swings 5000nl/min on and - 5000nl/min off - no cycling gave consistent approx 4000nl/min.
   - DATA in SD card corrupted
+
+### 2024-10-04: First Long Term Test of only Syringe
+- **Description**: The testing-syringe without needle was run over night.
+- **Highlights**: 
+  - 1 run was made but failed after a few hours likely due to leak at the syringe adapter.
+- **DATA**: 
+  - 100Hz, 150V, No cycles - Initially pumping had fine flow but stopped, reprimed and and seemingly working for a couple of hours then it became very noisy on stopped. After some inspection this seemed the be the metal syringe adapter ruining the seal. Changed the damaged fittings.
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Long_test_041024/TEST_100Hz_150V_cycleNO_041024.png)
+
+### 2024-10-07: Second Long Term Test of only Syringe
+- **Description**: The testing-syringe without needle was run over the weekend.
+- **Highlights**: 
+  - 1 run was made but showed 4 different flow regimes (High, Decreasing, Mid-Noisy snf Low_Stable).
+- **DATA**: 
+  - 100Hz, 150V, No cycles - Initially pumping had fine at high stable flow but then stopped, reprimed the line and high stable flow continued for a some of hours. At about the 5 hours mark the flow rate dropped, became noisy and started to decrease for about 15 hours. The following 18 or so hours the flow rate plateaued slightly higher than the end-point of the decrease, but was much more noisy than initially. At the 38 hour mark it changed regime again as the flow rate dropped to similar levels to the decrease end-point, while fluctuating it was much more stable.
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Long_test_071024/TEST_100Hz_150V_cycleNO_071024.png)
+
