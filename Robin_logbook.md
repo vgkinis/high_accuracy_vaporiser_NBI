@@ -85,3 +85,17 @@ Welcome to the logbook. This document keeps track of significant events, updates
   - 100Hz, 150V, No cycles - Initially pumping had fine at high stable flow but then stopped, reprimed the line and high stable flow continued for a some of hours. At about the 5 hours mark the flow rate dropped, became noisy and started to decrease for about 15 hours. The following 18 or so hours the flow rate plateaued slightly higher than the end-point of the decrease, but was much more noisy than initially. At the 38 hour mark it changed regime again as the flow rate dropped to similar levels to the decrease end-point, while fluctuating it was much more stable.
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Long_test_071024/TEST_100Hz_150V_cycleNO_071024.png)
 
+### 2024-10-08: Third Long Term Test of only Syringe
+- **Description**: The testing-syringe without needle was run over night. Additional test with no flowmeter.
+- **Highlights**: 
+  - 1 run was made showed a stable high flow regime but completely stopped after approx. 6 hours. In the morning about 50 ml of water was in the out beaker.
+  - 5 runs without flowmeter was made.
+- **DATA**: 
+  - 100Hz, 150V, No cycles - Initially pumping had fine at high stable flow but then stopped after 6 hours, did not rebound.
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/Long_test_081024/TEST_100Hz_150V_cycleNO_081024.png)
+  - 100Hz, 150V (maybe 250V by mistake) without flowmeter straight to beeaker - filled 50 ml in less than an hour.
+  - 100Hz, 150V without flowmeter straight to beeaker - filled 60 ml in about an hour 10 min.
+  - 100Hz, 150V without flowmeter straight to beeaker - only very little water in an hour (reprimed after).
+  - 100Hz, 150V without flowmeter straight to beeaker - filled 50 ml in less than an hour.
+  - 100Hz, 150V without flowmeter straight to beeaker - filled 50 ml in less than an hour.
+
