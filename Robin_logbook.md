@@ -11,7 +11,7 @@ Welcome to the logbook. This document keeps track of significant events, updates
 - [2024-10-04: First Long Term Test of only Syringe](#2024-10-04-first-long-term-test-of-only-syringe)
 - [2024-10-07: Second Long Term Test of only Syringe](#2024-10-04-second-long-term-test-of-only-syringe)
 
-## Log Entries
+## Log Entries 2024
 
 ### 2024-08-21: Initial Test
 - **Description**: Testing the SD-card reader and LabView program cycle routine
@@ -99,3 +99,105 @@ Welcome to the logbook. This document keeps track of significant events, updates
   - 100Hz, 150V without flowmeter straight to beeaker - filled 50 ml in less than an hour.
   - 100Hz, 150V without flowmeter straight to beeaker - filled 50 ml in less than an hour.
 
+## Log Entries 2025
+
+### General changes made to the setup
+- **Description**: The following changes have been made to the setup.
+	- A new labview VI for micropump and flowmeter DAQ has been implemented (See Robin_software for further documentation). This enables simultaneous DAQ and control of both the micropump and the flowmeter, live view of flow, voltage and frequency as well as PID control of voltage and frequency.
+	- The jar containing inlet water is kept in a commercial peltier coolerbox (Essential Minikøleskab by Nohro - PO no.: 108596 Model no. ELEC00014-1) which allows cooling to 15C lower than ambient temperature.
+	
+### 2025-07-04: First test with active cooling
+- **Description**: The Peltier cooler was powered through USB from an 2011 27' iMAC, and a long run to test stability
+- **Highlights**: 
+  - Active cooling 
+  - new miliQ water
+  - priming 
+  - fixed V and f
+  - output container underneath the input container (possible syphon effect)
+- **DATA**: 
+  - Even flow, slightly dropping initially (2 hrs), then very stable
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/CoolerTests2025/040725_150V_104Hz_NoPID.png)
+  
+### 2025-07-08: Second test with active cooling 
+- **Description**: Replication test of previous run
+- **Highlights**: 
+  - Active cooling 
+  - new miliQ water
+  - no priming 
+  - fixed V and f
+  - Output opening above input opening
+- **DATA**: 
+  - Even flow, slightly dropping initially (2 hrs), then minimally noisy
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/CoolerTests2025/080725_150V_104Hz_NoPID.png)
+  
+### 2025-07-09: No priming test
+- **Description**: Test No priming
+- **Highlights**: 
+  - Active cooling 
+  - same water from 080725
+  - no priming 
+  - start at high F about 150Hz then 100Hz fixed V
+  - Output opening above input opening
+- **DATA**: 
+  - Discontinous flow states (5000ul to 1500ul), no change noticible for frequency change (f change was a mistake replication needed)
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/CoolerTests2025/090725_150V_104Hz_NoPID.png)
+  
+### 2025-07-10: Second no priming test
+- **Description**: Replication test of previous run
+- **Highlights**: 
+  - Active cooling 
+  - same water from 080725
+  - no priming 
+  - fixed V and f
+  - Output opening above input opening
+- **DATA**: 
+  - Discontinous flow states (4000ul to 2000ul), priming seems to make a difference
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/CoolerTests2025/100725_150V_104Hz_NoPID.png)
+  
+### 2025-07-11: Priming test
+- **Description**: Test similar to previous run, but now with priming
+- **Highlights**: 
+  - Active cooling 
+  - same water from 080725
+  - priming 
+  - fixed V and f (final bit with PID F)
+  - Output opening above input opening
+- **DATA**: 
+  - Discontinous flow states (relatively steady at 3500ul) - not recording V at start, V turned on a 5min mark, maybe priming was not the only issue will try replicating 040725 test next
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/CoolerTests2025/110725_150V_104Hz_NoPID.png)
+  
+### 2025-07-15: Sanity check
+- **Description**: Test similar to 040725 run
+- **Highlights**: 
+  - Active cooling 
+  - new miliQ water
+  - priming 
+  - fixed V and f
+  - Output opening above input opening (+5cm approx)
+- **DATA**: 
+  - Even flow at 3100uL, when turning off pump 1400uL flow, disrupted by moving the output slightly up (+2cm approx) (still syphon effect?)
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/CoolerTests2025/150725_150V_104Hz_NoPID.png)
+  
+### 2025-07-16: Is it the syphon effect?
+- **Description**: Replication test of previous run (trying to ensure no syphon effect)
+- **Highlights**: 
+  - Active cooling 
+  - new miliQ water
+  - priming 
+  - fixed V and f
+  - Output opening high above input opening (+30cm approx)
+- **DATA**: 
+  - When output first moved after pumping strong negative flow, with pumping even flow at 3100uL, when turned off negative flow which settles- Height of ouput important
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/CoolerTests2025/160725_150V_104Hz_NoPID.png)
+  
+### 2025-07-17: Is it the water itself?
+- **Description**: Replication test of previous run using previous runs water
+- **Highlights**: 
+  - Active cooling 
+  - same water from 160725
+  - priming 
+  - fixed V and f
+  - Output opening high above input opening (+30cm approx)
+- **DATA**: 
+  - When output first moved after pumping strong negative flow, with pumping even flow at 3100uL that then became noisy, when turned off negative flow which settles after some time, not true for repeats as it is almost immediate- Old water seems to cause issues, what?
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/CoolerTests2025/170725_150V_104Hz_NoPID.png)
