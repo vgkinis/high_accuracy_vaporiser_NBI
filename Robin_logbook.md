@@ -4,12 +4,26 @@ Welcome to the logbook. This document keeps track of significant events, updates
 
 ## Index
 
+### 2024
 - [2024-08-21: Initial Test](#2024-08-21-initial-test)
 - [2024-08-28: Longer Measurement](#2024-08-28-longer-measurement)
 - [2024-09-02: Test of Syringe without Needle](#2024-09-02-test-of-syringe-without-needle)
-- [2024-09-03: Test of Syringe with Needle](#2024-09-02-test-of-syringe-with-needle)
+- [2024-09-03: Test of Syringe with Needle](#2024-09-03-test-of-syringe-with-needle)
 - [2024-10-04: First Long Term Test of only Syringe](#2024-10-04-first-long-term-test-of-only-syringe)
-- [2024-10-07: Second Long Term Test of only Syringe](#2024-10-04-second-long-term-test-of-only-syringe)
+- [2024-10-07: Second Long Term Test of only Syringe](#2024-10-07-second-long-term-test-of-only-syringe)
+- [2024-10-08: Third Long Term Test of only Syringe](#2024-10-08-third-long-term-test-of-only-syringe)
+
+### 2025 (setup changes & tests)
+- [General changes made to the setup](#general-changes-made-to-the-setup)
+- [2025-07-04: First test with active cooling](#2025-07-04-first-test-with-active-cooling)
+- [2025-07-08: Second test with active cooling](#2025-07-08-second-test-with-active-cooling)
+- [2025-07-09: No priming test](#2025-07-09-no-priming-test)
+- [2025-07-10: Second no priming test](#2025-07-10-second-no-priming-test)
+- [2025-07-11: Priming test](#2025-07-11-priming-test)
+- [2025-07-15: Sanity check](#2025-07-15-sanity-check)
+- [2025-07-16: Is it the syphon effect?](#2025-07-16-is-it-the-syphon-effect)
+- [2025-07-17: Is it the water itself?](#2025-07-17-is-it-the-water-itself)
+- [2025-07-21: Syringe test – no needle](#2025-07-21-syringe-test---no-needle)
 
 ## Log Entries 2024
 
@@ -105,6 +119,7 @@ Welcome to the logbook. This document keeps track of significant events, updates
 - **Description**: The following changes have been made to the setup.
 	- A new labview VI for micropump and flowmeter DAQ has been implemented (See Robin_software for further documentation). This enables simultaneous DAQ and control of both the micropump and the flowmeter, live view of flow, voltage and frequency as well as PID control of voltage and frequency.
 	- The jar containing inlet water is kept in a commercial peltier coolerbox (Essential Minikøleskab by Nohro - PO no.: 108596 Model no. ELEC00014-1) which allows cooling to 15C lower than ambient temperature.
+	-Following tests are without syringe and needle unless specified
 	
 ### 2025-07-04: First test with active cooling
 - **Description**: The Peltier cooler was powered through USB from an 2011 27' iMAC, and a long run to test stability
@@ -201,3 +216,15 @@ Welcome to the logbook. This document keeps track of significant events, updates
 - **DATA**: 
   - When output first moved after pumping strong negative flow, with pumping even flow at 3100uL that then became noisy, when turned off negative flow which settles after some time, not true for repeats as it is almost immediate- Old water seems to cause issues, what?
   - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/CoolerTests2025/170725_150V_104Hz_NoPID.png)
+  
+  ### 2025-07-21: Syringe test - no needle
+- **Description**: Syringe connected to system, submerged vertically, seal initially validated manually with the plunger syringe making sure there are no air bubbles in the lines
+- **Highlights**: 
+  - Active cooling 
+  - new miliQ water
+  - priming 
+  - fixed V and f
+  - Output opening high above input opening (+30cm approx)
+- **DATA**: 
+  - Very even flow, it does take some time for the flow to recover after pumping (20min approx)
+  - ![image](https://github.com/vgkinis/high_accuracy_vaporiser_NBI/blob/main/Robin_data/CoolerTests2025/210725_150V_104Hz_NoPID.png)
